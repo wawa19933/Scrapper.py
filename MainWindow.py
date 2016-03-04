@@ -9,6 +9,7 @@ class MainWindow (QtWidgets.QMainWindow, Ui_MainWindow):
         super(MainWindow, self).__init__(parent)
         self.setupUi(self)
         self.comboSite.addItem("BMW 530")
+        self.comboSite.addItem("BMW 525")
 
         self.buttonQuit.clicked.connect(QtCore.QCoreApplication.instance().quit)
 
